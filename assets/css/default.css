@@ -1,0 +1,22 @@
+.navbar-fixed-top {
+    position: static;
+}
+.navbar a.brand {
+    background-image: url(/assets/img/channel_sprite.png);
+    background-position: 0 -823px;
+    background-repeat: no-repeat;
+    height: 6px;
+    width: 138px;
+    display: block;
+    float: left;
+    line-height: 18px;
+    text-indent: -1000em;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.az li a {
+    text-transform: uppercase;
+}
+.media a {
+    color: #333;
+}
