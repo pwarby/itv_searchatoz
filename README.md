@@ -3,7 +3,8 @@ To install
 1.  Clone repository
 2.  Assuming you are running Apache server - create new vhosts entry pointing to cloned repository
 3.  Enable "AllowOverride All" in the vhost entry
-4.  Turn on the mod_rewrite extension
+4.  Turn on the mod_rewrite extension in your php.ini file
+5.  Install APC and enable the extension in your php.ini file
 5.  Ensure the /application/logs directory is writeable
 6.  Restart your server and hit http://localhost/a-z
 
